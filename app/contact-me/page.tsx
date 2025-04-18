@@ -59,7 +59,7 @@ export default function ContactPage() {
           </div>
 
           <ReCAPTCHA
-            sitekey="6Ldl_BwrAAAAAO0rsPRhIVF3UmqtwuHW6EHrMhjS"
+            sitekey="6Ld0Bx0rAAAAAGDaIZP-SkHEX1HMPkt7ZJXeRyVB"
             onChange={handleCaptcha}
             className="mt-4"
           />
