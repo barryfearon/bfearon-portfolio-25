@@ -5,7 +5,6 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { Dialog } from "@headlessui/react";
 
 export default function ContactPage() {
-  // const [success, setSuccess] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [captchaVerified, setCaptchaVerified] = useState(false);
 
