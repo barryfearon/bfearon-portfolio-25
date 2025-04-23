@@ -1,25 +1,12 @@
 "use client";
 
-import { useState } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
-import { Dialog } from "@headlessui/react";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function ContactPage() {
-  const [showModal, setShowModal] = useState(false);
-  const [captchaVerified, setCaptchaVerified] = useState(false);
-
-  const handleCaptcha = (value: string | null) => {
-    setCaptchaVerified(!!value);
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    if (!captchaVerified) {
-      e.preventDefault();
-      alert("Please complete the reCAPTCHA");
-    } else {
-      setShowModal(true);
-    }
-  };
+  const [state, handleSubmit] = useForm("mjkyqplg");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
 
   return (
     <main className="bg-gray-50 min-h-screen py-16 px-6 text-gray-900 py-30">
@@ -27,8 +14,6 @@ export default function ContactPage() {
         <h1 className="text-4xl font-bold mb-10 text-center">Get in Touch</h1>
 
         <form
-          action="https://formspree.io/f/your-form-id"
-          method="POST"
           onSubmit={handleSubmit}
           className="space-y-6 bg-white p-8 rounded-lg shadow"
         >
@@ -43,8 +28,12 @@ export default function ContactPage() {
               className="w-full border border-gray-300 rounded px-4 py-2 text-sm"
               required
             />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
           </div>
-
           <div>
             <label htmlFor="message" className="block text-sm font-medium mb-1">
               Message
@@ -56,47 +45,21 @@ export default function ContactPage() {
               rows={5}
               required
             ></textarea>
+            <ValidationError
+              prefix="Message"
+              field="message"
+              errors={state.errors}
+            />
           </div>
-
-          <ReCAPTCHA
-            sitekey="6Ld0Bx0rAAAAAGDaIZP-SkHEX1HMPkt7ZJXeRyVB"
-            onChange={handleCaptcha}
-            className="mt-4"
-          />
-
           <button
             type="submit"
+            disabled={state.submitting}
             className="bg-brand-01 text-white px-6 py-2 rounded hover:bg-brand-02 transition mt-4"
           >
             Send Message
           </button>
         </form>
       </div>
-
-      <Dialog
-        open={showModal}
-        onClose={() => setShowModal(false)}
-        className="relative z-50"
-      >
-        <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
-        <div className="fixed inset-0 flex items-center justify-center p-4">
-          <Dialog.Panel className="bg-white max-w-md rounded-lg shadow-lg p-6 text-center">
-            <Dialog.Title className="text-xl font-semibold mb-2">
-              Thank You!
-            </Dialog.Title>
-            <Dialog.Description className="text-sm text-gray-600 mb-4">
-              Your message has been submitted successfully. I&apos;ll get back
-              to you soon.
-            </Dialog.Description>
-            <button
-              className="mt-2 bg-brand-01 text-white px-4 py-2 rounded hover:bg-brand-02 transition"
-              onClick={() => setShowModal(false)}
-            >
-              Close
-            </button>
-          </Dialog.Panel>
-        </div>
-      </Dialog>
     </main>
   );
 }

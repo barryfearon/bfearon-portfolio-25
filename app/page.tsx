@@ -2,19 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Headshot from "../public/images/barry-fearon-cd-cartoon.png";
+import Headshot from "../public/images/barry-fearon-cd-cartoon@2x.png";
 
 export default function Home() {
   return (
-    <main className="bg-gray-50 text-gray-900 min-h-screen flex items-center justify-center py-16 px-4">
+    <main className="bg-gray-50 text-gray-900 text-center md:text-start min-h-screen flex items-center justify-center pt-30 pb-40 md:py-16 px-4 md:px-4">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
         <div className="flex justify-center md:justify-end">
           <Image
             src={Headshot}
             alt="Barry Fearon Headshot"
             width={200}
-            height={200}
-            className="rounded-full shadow-lg"
+            height={300}
+            className="rounded-full shadow-lg transition-transform transform hover:scale-105"
+            priority
+            placeholder="blur"
           />
         </div>
         <div>
@@ -32,7 +34,7 @@ export default function Home() {
             methodologies, digital product design, and cross-functional
             leadership.
           </p>
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center md:justify-start">
             <Link
               href="/experience"
               className="bg-brand-01 text-white px-6 py-2 rounded-lg shadow hover:bg-brand-02 transition"
