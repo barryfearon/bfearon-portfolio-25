@@ -1,8 +1,13 @@
 "use client";
+import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
-export default function ContactPage() {
-  const [state, submit, reset] = useForm("mjkyqplg");
+export default function ContactForm() {
+  const [state, handleSubmit, reset] = useForm("mjkyqplg");
+
+  if (state.errors) {
+    console.log("Formspree Errors", state.errors);
+  }
 
   if (state.submitting) {
     return (
@@ -46,10 +51,12 @@ export default function ContactPage() {
     <main className="bg-gray-50 text-gray-900 min-h-screen grid px-4 ">
       <div className="self-center">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-4xl font-bold mb-10 text-center">Get in Touch</h1>
+          <h1 className="text-4xl font-bold mb-10 text-center">
+            !Get in Touch
+          </h1>
 
           <form
-            onSubmit={submit}
+            onSubmit={handleSubmit}
             className="space-y-6 bg-white p-8 rounded-lg shadow"
           >
             <div>
