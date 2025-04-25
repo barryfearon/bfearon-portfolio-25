@@ -47,7 +47,7 @@ const experiences = [
 
 export default function ExperiencePage() {
   return (
-    <main className="bg-gray-50 min-h-screen py-16 px-6 py-30 text-gray-900">
+    <main className="bg-gray-50 min-h-screen pt-30 pb-40 md:py-16 px-4 text-gray-900">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-bold mb-12 text-center">Experience</h1>
         <ul className="space-y-10">

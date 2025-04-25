@@ -74,7 +74,7 @@ export default function Portfolio() {
       : projects.filter((project) => project.category === selectedCategory);
 
   return (
-    <main className="bg-white text-gray-900 min-h-screen py-16 px-4 py-30">
+    <main className="bg-white text-gray-900 min-h-screen pt-30 pb-40 md:py-16 px-4">
       <motion.div
         className="max-w-6xl mx-auto"
         initial={{ opacity: 0 }}

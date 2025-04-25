@@ -6,9 +6,9 @@ import Headshot from "../public/images/barry-fearon-cd-cartoon@2x.png";
 
 export default function Home() {
   return (
-    <main className="bg-gray-50 text-gray-900 text-center md:text-start min-h-screen flex items-center justify-center pt-30 pb-40 md:py-16 px-4 md:px-4">
-      <div className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
-        <div className="flex justify-center md:justify-end">
+    <main className="bg-gray-50 text-gray-900 text-center md:text-start min-h-screen flex items-center justify-center pt-30 pb-40 md:py-16 px-4">
+      <div className="max-w-6xl w-full grid md:grid-cols-12 gap-12 items-center">
+        <div className="flex justify-center md:justify-end md:col-span-5">
           <Image
             src={Headshot}
             alt="Barry Fearon Headshot"
@@ -19,7 +19,7 @@ export default function Home() {
             placeholder="blur"
           />
         </div>
-        <div>
+        <div className="md:col-span-5">
           <h1 className="text-4xl font-bold mb-2">Barry Fearon</h1>
           <h2 className="text-lg text-gray-600 mb-4">
             Creative Director · Scrum Master · UX/UI Specialist
@@ -37,13 +37,13 @@ export default function Home() {
           <div className="flex gap-4 justify-center md:justify-start">
             <Link
               href="/experience"
-              className="bg-brand-01 text-white px-6 py-2 rounded-lg shadow hover:bg-brand-02 transition"
+              className="cursor-pointer bg-brand-01 text-white px-6 py-2 rounded-lg shadow hover:bg-brand-02 transition"
             >
               View Experience
             </Link>
             <Link
               href="/contact-me"
-              className="border border-gray-400 text-gray-700 px-6 py-2 rounded-lg hover:bg-gray-100 transition"
+              className="cursor-pointer border border-gray-400 text-gray-700 px-6 py-2 rounded-lg hover:bg-gray-100 transition"
             >
               Contact Me
             </Link>
