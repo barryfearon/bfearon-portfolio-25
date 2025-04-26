@@ -51,9 +51,7 @@ export default function ContactForm() {
     <main className="bg-gray-50 text-gray-900 min-h-screen grid px-4 ">
       <div className="self-center">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-4xl font-bold mb-10 text-center">
-            !Get in Touch
-          </h1>
+          <h1 className="text-4xl font-bold mb-10 text-center">Get in Touch</h1>
 
           <form
             onSubmit={handleSubmit}
