@@ -47,6 +47,14 @@ const projects = [
     category: "Health",
   },
   {
+    title: "Utmost Wealth International",
+    description:
+      "Produced UX journeys, wireframes, and prototypes for web and tablet tools used by global advisers. Collaborated across teams to ensure consistency and compliance.",
+    image: "/images/portfolio/utmost/utmost_international_logo.svg",
+    url: "#",
+    category: "Finance",
+  },
+  {
     title: "AXA Wealth International",
     description:
       "Enhanced security and UX through OTP integration and streamlined registration journeys for financial services clients.",
@@ -117,7 +125,7 @@ export default function Portfolio() {
           ))}
         </motion.div>
 
-        <div className="grid gap-10 md:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-3 justify-items-center">
           <AnimatePresence>
             {filteredProjects.map((project, index) => (
               <motion.div
