@@ -2,34 +2,21 @@
 
 import Image from "next/image";
 
-import tmtnLogo from "../../public/images/portfolio/tmtn/tmtn-logo-500x140.png";
+import lynxbetLogo from "../../public/images/portfolio/lynxbet/lynx-bet-orange-logo-500x120.png";
 
 const mobileImages = [
   //Wireframes
-  "/images/portfolio/tmtn/wireframe-summary-screen.png",
-  "/images/portfolio/tmtn/wireframe-personel-filter-options.png",
-  "/images/portfolio/tmtn/wireframe-employee-summary-screen.png",
-  "/images/portfolio/tmtn/wireframe-employee-add-time.png",
-
-  //App
-  "/images/portfolio/tmtn/app-summary.png",
-  "/images/portfolio/tmtn/app-list-personnel.png",
-  "/images/portfolio/tmtn/app-start-timer.png",
-  "/images/portfolio/tmtn/app-confirm-time-entry.png",
+  "/images/portfolio/lynxbet/lynxbet-mobile-homepage.png",
+  "/images/portfolio/lynxbet/lynxbet-mobile-game-on.png",
+  "/images/portfolio/lynxbet/lynxbet-mobile-top-betting.png",
+  "/images/portfolio/lynxbet/lynxbet-mobile-new-casino-games.png",
 ];
 
 const desktopImages = [
-  //Marketing Site
-  "/images/portfolio/tmtn/home-page-01.png",
-  "/images/portfolio/tmtn/homepage-icons.png",
-  "/images/portfolio/tmtn//homepage-pricing.png",
-  "/images/portfolio/tmtn/homepage-form.png",
-
-  //Desktop
-  "/images/portfolio/tmtn/dt-summary.png",
-  "/images/portfolio/tmtn/dt-addnew-personnel.png",
-  "/images/portfolio/tmtn/dt-start-timer-employee.png",
-  "/images/portfolio/tmtn/dt-confirm-time-entry.png",
+  "/images/portfolio/lynxbet/lynxbet-desktop-hero-banner.png",
+  "/images/portfolio/lynxbet/lynxbet-desktop-hero-casino-banner.png",
+  "/images/portfolio/lynxbet/lynxbet-desktop-hero-sports-banner.png",
+  "/images/portfolio/lynxbet/lynxbet-desktop-payment-providers.png",
 ];
 
 export default function LynxbetPage() {
@@ -38,7 +25,7 @@ export default function LynxbetPage() {
       <div className="max-w-6xl mx-auto">
         <div className="grid justify-center mb-8">
           <Image
-            src={tmtnLogo}
+            src={lynxbetLogo}
             alt="lynxbet logo"
             title="LynxBet"
             width={300}

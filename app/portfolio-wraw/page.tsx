@@ -22,10 +22,10 @@ const mobileImages = [
 ];
 
 const desktopImages = [
-  "/images/portfolio/lynxbet/lynxbet-desktop-hero-banner.png",
-  "/images/portfolio/lynxbet/lynxbet-desktop-hero-casino-banner.png",
-  "/images/portfolio/lynxbet/lynxbet-desktop-hero-sports-banner.png",
-  "/images/portfolio/lynxbet/lynxbet-desktop-payment-providers.png",
+  "/images/portfolio/wraw/homepage-desktop-proto.png",
+  "/images/portfolio/wraw/homepage-existing-user-desktop-proto.png",
+  "/images/portfolio/wraw/mood-mappingdesktop-proto-01.png",
+  "/images/portfolio/wraw/learning-journey-desktop-proto-01.png",
 ];
 
 export default function WrawPage() {

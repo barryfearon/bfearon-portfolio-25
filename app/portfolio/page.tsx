@@ -35,7 +35,7 @@ const projects = [
     description:
       "Directed design for a high-pressure iGaming launch with responsive web and native mobile app interfaces.",
     image: "/images/portfolio/lynxbet/lynx-bet-orange-logo-500x120.png",
-    url: "#",
+    url: "/portfolio-lynxbet",
     category: "iGaming",
   },
   {
