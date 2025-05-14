@@ -11,7 +11,7 @@ const projects = [
     description:
       "Leading digital transformation and stakeholder coordination for a £1.5M GIS migration project.",
     image: "/images/portfolio/mua/mua-esri-logo-200x200.png",
-    url: "https://www.esri.com/en-us/home#",
+    url: "#",
     category: "Government",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     description:
       "Led UX and design strategy for a cross-platform iGaming product. Focused on user flows, branding, and agile team coordination.",
     image: "/images/portfolio/gml/gml-logo-500x405.png",
-    url: "https://gamingmechanics.com",
+    url: "/portfolio-gml",
     category: "iGaming",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     description:
       "A time tracking app that showcases UX/UI design and product leadership for a SaaS product.",
     image: "/images/portfolio/tmtn/tmtn-logo-500x140.png",
-    url: "https://trackmytimenow.com",
+    url: "/portfolio-tmtn",
     category: "Productivity",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     description:
       "Redesigned a wellbeing platform’s core product for modern usability and scalability.",
     image: "/images/portfolio/wraw/wraw-logo-500x200.png",
-    url: "https://thewellbeingproject.co.uk",
+    url: "/portfolio-wraw",
     category: "Health",
   },
   {
@@ -59,7 +59,7 @@ const projects = [
     description:
       "Enhanced security and UX through OTP integration and streamlined registration journeys for financial services clients.",
     image: "/images/portfolio/axa/axa-wealth-logo-500x234.png",
-    url: "#",
+    url: "/portfolio-axa",
     category: "Finance",
   },
 ];
@@ -137,8 +137,6 @@ export default function Portfolio() {
               >
                 <Link
                   href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="group border rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition block"
                 >
                   <div className="bg-white p-4 flex justify-center h-60">
