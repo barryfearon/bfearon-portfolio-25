@@ -11,7 +11,7 @@ const projects = [
     description:
       "Leading digital transformation and stakeholder coordination for a £1.5M GIS migration project.",
     image: "/images/portfolio/mua/mua-esri-logo-200x200.png",
-    url: "#",
+    url: "/portfolio-mua",
     category: "Government",
   },
   {

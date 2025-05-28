@@ -4,21 +4,26 @@ import Image from "next/image";
 
 import muaLogo from "../../public/images/portfolio/mua/mua-esri-logo-200x100.png";
 
-const desktopImages = [
-  "/images/portfolio/axa/2FA-Spec-v1.3-5.png",
-  "/images/portfolio/axa/2FA-Spec-v1.3-6.png",
-  "/images/portfolio/axa/2FA-Spec-v1.3-7.png",
-  "/images/portfolio/axa/2FA-Spec-v1.3-8.png",
-  "/images/portfolio/axa/2FA-Spec-v1.3-9.png",
-  "/images/portfolio/axa/2FA-Spec-v1.3-10.png",
-];
+// const desktopImages = [
+//   "/images/portfolio/axa/2FA-Spec-v1.3-5.png",
+//   "/images/portfolio/axa/2FA-Spec-v1.3-6.png",
+//   "/images/portfolio/axa/2FA-Spec-v1.3-7.png",
+//   "/images/portfolio/axa/2FA-Spec-v1.3-8.png",
+//   "/images/portfolio/axa/2FA-Spec-v1.3-9.png",
+//   "/images/portfolio/axa/2FA-Spec-v1.3-10.png",
+// ];
 
 export default function MuaPage() {
   return (
     <main className="bg-white text-gray-900 min-h-screen pt-30 pb-40 md:py-30 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid justify-center mb-8">
-          <Image src={muaLogo} alt="lynxbet logo" title="LynxBet" width={200} />
+          <Image
+            src={muaLogo}
+            alt="MUA Logo"
+            title="Manx Utilities"
+            width={200}
+          />
         </div>
         <h1 className="text-4xl font-bold mb-6 text-center">
           ESRI GIS System – Manx Utilities
@@ -66,7 +71,7 @@ export default function MuaPage() {
           software transformations.
         </p>
 
-        <h2 className="text-2xl font-semibold mb-4">UX / UI Design</h2>
+        {/* <h2 className="text-2xl font-semibold mb-4">UX / UI Design</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {desktopImages.map((src, index) => (
             <div
@@ -82,7 +87,7 @@ export default function MuaPage() {
               />
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </main>
   );
