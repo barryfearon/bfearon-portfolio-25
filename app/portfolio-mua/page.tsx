@@ -29,46 +29,55 @@ export default function MuaPage() {
           ESRI GIS System – Manx Utilities
         </h1>
         <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
-          As Project Coordinator for Manx Utilities, I was responsible for
+          As Project Coordinator for Manx Utilities, I am responsible for
           driving the successful delivery of a multi-phase GIS transformation
-          project, leading coordination efforts internally while working
-          alongside external partners including ESRI UK & Ireland. The
-          initiative involved migrating from the legacy Smallworld system to the
-          ESRI ArcGIS Utility Network, with the goal of streamlining workflows,
-          enhancing data visibility, and supporting utility operations across
-          electricity, water, wastewater, and fibre.
+          project, leading internal coordination efforts while working alongside
+          external partners including ESRI UK & Ireland. The initiative involves
+          migrating from the legacy Smallworld system to the ESRI ArcGIS Utility
+          Network, with the aim of streamlining workflows, enhancing data
+          visibility, and supporting utility operations across electricity,
+          water, wastewater, and fibre.
         </p>
         <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
-          My role was broad and hands-on—overseeing internal engagement,
+          My role is broad and delivery-focused—overseeing internal engagement,
           aligning stakeholders, managing change, and facilitating collaboration
           across departments such as Customer Services, Engineering, Field
-          Operations, Legal, and Safety. I was the central liaison between
+          Operations, Legal, and Safety. I act as the central liaison between
           internal users and the external development team, ensuring that
-          technical delivery remained closely aligned with business needs.
+          technical outputs remain aligned with business goals and operational
+          needs.
         </p>
         <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
-          Working alongside UX designers and GIS specialists, I contributed to
-          the planning and rollout of over 20 new web-based applications. I
-          supported the design and review of wireframes, mapped user journeys,
-          and helped prioritise features based on real-world operational needs.
-          I led the user acceptance testing (UAT) process—developing test plans,
-          gathering structured feedback via SharePoint and Power Apps, and
-          coordinating issue resolution across multiple stakeholder groups.
+          As part of the core management team, I coordinate timelines, track
+          progress across multiple workstreams, and manage dependencies to
+          ensure that milestones are achieved on schedule. I lead planning
+          sessions, prioritise functional requirements, and maintain clear
+          communication channels between technical teams and operational
+          stakeholders.
         </p>
         <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
-          In addition to delivery oversight, I played a key role in change
-          management—organising team demos, developing training materials, and
-          supporting internal adoption of the new platform. The project was
-          delivered in multiple releases (R1.1 to R1.3), each introducing new
-          tools that improved mapping, asset management, and cross-departmental
-          visibility.
+          I also take a hands-on role in testing, working across both mobile and
+          desktop environments. I lead the user acceptance testing (UAT)
+          process—developing test plans, executing test cases, capturing
+          structured feedback via SharePoint and Power Apps, and ensuring timely
+          resolution of issues. My involvement helps maintain quality and
+          usability standards across the release cycle.
         </p>
         <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
-          The result was a scalable, user-aligned GIS ecosystem that modernised
-          how Manx Utilities manages its critical infrastructure. The project
-          showcased the value of coordinated leadership, structured testing, and
-          a user-focused rollout approach in delivering complex enterprise
-          software transformations.
+          In addition to delivery oversight, I support change management and
+          internal adoption—organising team demos, creating support materials,
+          and coordinating training to embed new processes. The project is
+          delivered in staged releases (R1.1 to R1.3), each introducing new
+          digital tools that improve mapping, asset tracking, and
+          cross-departmental collaboration.
+        </p>
+
+        <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
+          The result is a modern, scalable GIS ecosystem that enhances how Manx
+          Utilities manages critical infrastructure. This project demonstrates
+          my ability to lead complex enterprise implementations through a
+          combination of strong project management, testing expertise, and
+          stakeholder-focused delivery.
         </p>
 
         {/* <h2 className="text-2xl font-semibold mb-4">UX / UI Design</h2>

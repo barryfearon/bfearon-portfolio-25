@@ -54,7 +54,32 @@ export default function TmtnPage() {
           </Link>
         </p>
 
-        <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3"></p>
+        <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
+          As Creative Director, I oversaw the full creative development of Track
+          My Time Now—a digital-first time tracking application designed to
+          streamline how individuals and teams manage hours, clients, and
+          projects.
+        </p>
+
+        <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
+          I led the project from concept to completion, shaping the brand’s
+          visual identity, user experience, and product storytelling to ensure
+          clarity, simplicity, and usability were at the heart of the platform.
+        </p>
+
+        <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-3">
+          A standout component of the launch was the introductory explainer
+          video, which plays a key role in introducing the product’s core
+          benefits. I collaborated closely with the animation and script teams,
+          providing creative direction and feedback throughout, and signed off
+          on the final cut used on the live site.
+        </p>
+
+        <p className="text-sm text-gray-700 max-w-3xl mx-auto mb-12">
+          The result is a polished, user-focused platform supported by engaging
+          visual storytelling—built to remove friction from time tracking and
+          help businesses work smarter, not harder.
+        </p>
 
         <h2 className="text-2xl font-semibold mb-4">
           Mobile Wireframe Designs

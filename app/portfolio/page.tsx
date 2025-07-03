@@ -46,20 +46,21 @@ const projects = [
     url: "/portfolio-wraw",
     category: "Health",
   },
-  {
-    title: "Utmost Wealth International",
-    description:
-      "Produced UX journeys, wireframes, and prototypes for web and tablet tools used by global advisers. Collaborated across teams to ensure consistency and compliance.",
-    image: "/images/portfolio/utmost/utmost_international_logo.svg",
-    url: "#",
-    category: "Finance",
-  },
+
   {
     title: "AXA Wealth International",
     description:
       "Enhanced security and UX through OTP integration and streamlined registration journeys for financial services clients.",
     image: "/images/portfolio/axa/axa-wealth-logo-500x234.png",
     url: "/portfolio-axa",
+    category: "Finance",
+  },
+  {
+    title: "Utmost Wealth International",
+    description:
+      "Produced UX journeys, wireframes, and prototypes for web and tablet tools used by global advisers. Collaborated across teams to ensure consistency and compliance.",
+    image: "/images/portfolio/utmost/utmost_international_logo.svg",
+    url: "#",
     category: "Finance",
   },
 ];
